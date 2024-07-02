@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color:burlywood
+}
+header{
+    background-color: blueviolet;
+    color: white;
+    line-height: 5rem;
+    
+}
+
+#rock1{
+    margin-top: 90px;
+    margin-right: 25rem;
+    object-fit: cover;
+    justify-content: center;
+    
+    
+
+}
+#paper1{
+    margin-top: -20px;
+         
+    object-fit: cover;
+    justify-content: center;
+    
+    
+
+}
+#scissors1{
+    
+    margin-top: -25px;
+          
+     margin-left: 25rem;
+    object-fit: cover;
+    justify-content: center;
+    
+}
+
+.click{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.click:hover{
+    cursor: pointer;
+     object-fit: cover; 
+    justify-content: center; 
+    color: black;
+    }
+
+img{
+     
+   margin-top: 100px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    }
+.clicks{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 4rem;
+    font-size: 40px;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+
+.msg{
+    background-color: black;
+    
+    color: white;
+    line-height:3rem ;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 4px;
+    display: inline;
+
+
+}
